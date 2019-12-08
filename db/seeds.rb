@@ -11,7 +11,7 @@ puts "Destroyed job app"
 User.destroy_all
 puts "Destroyed users"
 
-user = User.new(email: "anna@example.com", password: "123456")
+user = User.new(email: "leo@example.com", password: "12345678")
 user.save!
 puts "User was created"
 profile =Profile.create(first_name: "Anna", last_name: "Smith", user_id: user.id)
